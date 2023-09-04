@@ -69,6 +69,8 @@ We will use Terraform to deploy all the required resources. The code will be a s
 
 ![](https://github.com/nokorinotsubasa/CI-jenkins-azure/blob/638046f3a426f8f5afe57b4c9c9eec48bbf911cc/images/DownloadArtifactsJob.png)
 
+## Final Result
+
 - You can access the Web App link and check the app's web page:
 
 ![](https://github.com/nokorinotsubasa/CI-jenkins-azure/blob/638046f3a426f8f5afe57b4c9c9eec48bbf911cc/images/webpage.png)
