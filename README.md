@@ -9,7 +9,13 @@ Here, we will see how to integrate jenkins into Azure; We will use Jenkins to bu
 
 We will use Terraform to deploy all the required resources. The code will be a simple C# application that displays a "Welcome" web page with a version number.
 
-### Steps
+## Notes about terraform
+
+- Don't forget to change `terraform.tfvars` to set vm admin username, etc;
+
+- The Virtual machines password will NOT be on the output, instead they can be securely found in the `terraform.tfstate` file;
+
+## Steps
 
 - Terraform deploys the resouces, the Vm will run Jenkins in a cutom Docker Container with all dependencies installed. The Vm is configured to use Custom Script Extension.
 
